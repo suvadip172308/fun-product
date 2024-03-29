@@ -1,0 +1,40 @@
+.imageWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.imageContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.mainImg {
+  width: 50%;
+  height: 50%;
+  aspect-ratio: 1/1;
+  border: 2px solid #d9d5d559;
+  padding: 20px;
+  background-color: #f5f5f557;
+  border-radius: 10px;
+}
+
+.optionImgContainer {
+  display: flex;
+  justify-content: center;
+  column-gap: 0.5rem;
+  max-width: 42rem;
+  overflow: auto;
+}
+
+.optionImg {
+  width: 6rem;
+  height: 6rem;
+  aspect-ratio: 1/1;
+  padding: 0.5rem;
+  border: 2px solid #d9d5d559;
+  border-radius: 5px;
+  cursor: pointer;
+}

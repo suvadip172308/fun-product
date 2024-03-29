@@ -1,0 +1,48 @@
+.headerWrapper {
+  display: flex;
+  justify-content: space-between;
+  background-color: #bce3b4;
+}
+
+.companyName {
+  margin-left: 10px;
+}
+
+.navlinkWrapper {
+  display: flex;
+}
+
+.listContainer {
+  min-width: 35rem;
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.listItem {
+  text-decoration: none;
+  color: black;
+}
+
+.listItem:hover {
+  cursor: pointer;
+  color: rgb(67, 66, 66);
+}
+
+.userName {
+  font-size: 0.8rem;
+}
+
+.userInfo {
+  display: flex;
+  align-items: center;
+}
+
+.userImage {
+  width: 30px;
+  height:30px;
+  border-radius: 50%;
+  margin: 0 10px;
+}

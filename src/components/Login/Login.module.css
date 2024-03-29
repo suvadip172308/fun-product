@@ -1,0 +1,46 @@
+.loginHeader {
+  margin-left: 2rem;
+}
+
+.loginWrapper {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapperCard {
+  width: 500px;
+  min-height: 35%;
+}
+
+.formWrapper {
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /* justify-content: center; */
+  min-height: 200px;
+}
+
+.alignCenter {
+  margin: 0 auto;
+}
+
+.loginInput {
+  font-size: 1.5rem;
+}
+
+.buttonWrapper {
+  margin-top: 5px;
+}
+
+.loginButton {
+  margin: 5px 10px;
+  padding: 14px;
+  width: 12rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+

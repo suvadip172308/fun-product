@@ -1,0 +1,19 @@
+.productDetailsWrapper {
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  display: flex;
+  align-items: center;
+}
+.star {
+  color:brown;
+}
+
+.deatilsContainer {
+  display: flex;
+}
+
+.detailsBody {
+  list-style-type: none;
+}
